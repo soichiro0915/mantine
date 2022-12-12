@@ -8,7 +8,7 @@ import { Layout } from '../../components/Layout'
 const ButtonDemo = () => {
   return (
     <Layout title="button">
-      <Group position="center" direction="column">
+      <Group className='flex-col' position="center" >
         <Button
           classNames={{
             leftIcon: 'text-pink-500 h-6 w-6',

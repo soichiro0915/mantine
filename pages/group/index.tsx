@@ -12,7 +12,7 @@ const GropuDemo = () => {
         <Button color="orange">3</Button>
       </Group>
 
-      <Group direction="column" my="md" position="right">
+      <Group className="flex-col" my="md" position="right">
         <Button color="indigo">1</Button>
         <Button color="teal">2</Button>
         <Button color="orange">3</Button>
