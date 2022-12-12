@@ -45,14 +45,14 @@ export const DashBoard = () => {
             <Menu.Item
               icon={<Settings size={16} />}
               component={Link}
-              href="/multi-select"
+              href="/multiSelect"
             >
               Multi Select
             </Menu.Item>
             <Menu.Item
               icon={<Settings size={16} />}
               component={Link}
-              href="/fetch-api"
+              href="/fetchApi"
             >
               Data loader
             </Menu.Item>
